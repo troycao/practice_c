@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/lbxy/c/project/practice_c/include/MemoryPool.h">
+			<Option target="practice_c"/>
+		</Unit>
 		<Unit filename="E:/lbxy/c/project/practice_c/main.c">
 			<Option target="practice_c"/>
 		</Unit>
