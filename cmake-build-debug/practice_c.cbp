@@ -81,6 +81,9 @@
 		<Unit filename="E:/lbxy/c/project/practice_c/main.c">
 			<Option target="practice_c"/>
 		</Unit>
+		<Unit filename="E:/lbxy/c/project/practice_c/src/Practice.c">
+			<Option target="practice_c"/>
+		</Unit>
 		<Unit filename="E:/lbxy/c/project/practice_c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

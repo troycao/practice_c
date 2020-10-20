@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/practice_c.dir/main.c.obj"
+  "CMakeFiles/practice_c.dir/src/Practice.c.obj"
   "practice_c.exe"
   "practice_c.exe.manifest"
   "practice_c.lib"

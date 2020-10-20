@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "E:/lbxy/c/project/practice_c/main.c" "E:/lbxy/c/project/practice_c/cmake-build-debug/CMakeFiles/practice_c.dir/main.c.obj"
+  "E:/lbxy/c/project/practice_c/src/Practice.c" "E:/lbxy/c/project/practice_c/cmake-build-debug/CMakeFiles/practice_c.dir/src/Practice.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

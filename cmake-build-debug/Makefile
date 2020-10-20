@@ -154,6 +154,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\practice_c.dir\main.c.s
 .PHONY : main.c.s
 
+src\Practice.obj: src\Practice.c.obj
+
+.PHONY : src\Practice.obj
+
+# target to build an object file
+src\Practice.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\practice_c.dir\src\Practice.c.obj
+.PHONY : src\Practice.c.obj
+
+src\Practice.i: src\Practice.c.i
+
+.PHONY : src\Practice.i
+
+# target to preprocess a source file
+src\Practice.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\practice_c.dir\src\Practice.c.i
+.PHONY : src\Practice.c.i
+
+src\Practice.s: src\Practice.c.s
+
+.PHONY : src\Practice.s
+
+# target to generate assembly for a file
+src\Practice.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_c.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\practice_c.dir\src\Practice.c.s
+.PHONY : src\Practice.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -166,6 +193,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Practice.obj
+	@echo ... src/Practice.i
+	@echo ... src/Practice.s
 .PHONY : help
 
 
